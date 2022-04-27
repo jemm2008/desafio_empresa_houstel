@@ -1,0 +1,147 @@
+/* Base Styles*/
+body {
+  height: 100vh;
+  background-color: #FFF;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+
+*, body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "open sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Header Layout */
+.header {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.logo {
+  width: 120px;
+}
+
+/* main Layout */
+.main {
+  position: absolute;
+  left: 50%;
+  top: 9.5vh;
+  transform: translateX(-50%);
+}
+
+.main__container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__title {
+  color: #FFF;
+  text-align: center;
+}
+
+.main__title-emphasis {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.main__title-emphasis--size-xxl {
+  font-size: 130px;
+}
+
+.main__button {
+  margin: -20px;
+}
+
+/* Form Layout */
+.form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 45vh;
+  height: 370px;
+  width: 70vw;
+  margin-left: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  background-color: #FFF;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__button {
+  margin-top: 0.9rem;
+  align-self: center;
+}
+
+/* Buttons */
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 3px;
+  font-family: "open sans", sans-serif;
+  font-size: 14px;
+  color: #FFF;
+}
+
+.button__default {
+  background-color: #E94F37;
+  border-color: #E94F37;
+}
+.button__default:hover {
+  background-color: #EF7F6D;
+  border-color: #EF7F6D;
+}
+
+.button__positive {
+  background-color: #44BBA4;
+  border-color: #44BBA4;
+}
+.button__positive:hover {
+  background-color: #66C7B4;
+  border-color: #66C7B4;
+}
+
+/* Inputs */
+.form__label {
+  margin-top: 0.5rem;
+  padding-bottom: 0.3rem;
+  font-family: "open sans", sans-serif;
+  font-size: 12px;
+  color: #5D6163;
+}
+
+.form__input-text, .form__input-date, .form__select {
+  height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #818486;
+}
+
+.form__input-text, .form__input-date {
+  border-radius: 5px;
+  border: 1px solid #BABABA;
+}
+
+.form__select {
+  background-color: #FFF;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+/* Buttons */
+.button {
+    padding : .7rem 2rem;
+    border-radius : 3px;
+    font-family : $open-sans;
+    font-size : $small;
+    color : $white;
+    }
+    .button__default {
+        background-color : $carmine-pink;
+        border-color : $carmine-pink;
+        &:hover {
+            background-color : $salmon;
+            border-color : $salmon;
+        }
+    }
+    .button__positive {
+        background-color : $verdigris;
+        border-color : $verdigris;
+        &:hover {
+            background-color : $medium-aquamarine;
+            border-color : $medium-aquamarine;
+        }
+    }
